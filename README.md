@@ -2,20 +2,11 @@
 
 # Predicting Molecular Structures from Mass Spectrometry Data Using Machine Learning
 
-This repository contains a computational pipeline designed to simulate, fragment, and optimise mass spectra for chemical compounds using RDKit and a genetic algorithm. The workflow processes compound data, simulates ionisation and fragmentation reactions, matches simulated spectra with experimental data, and uses optimisation techniques to enhance the simulation. Finally, both qualitative and quantitative comparisons are performed between the simulated and experimental spectra.
+This repository contains a computational pipeline designed to simulate, fragment, and optimise mass spectra of chemical compounds using RDKit and a genetic algorithm. The workflow processes compound data, simulates ionisation and fragmentation reactions, matches simulated spectra with experimental data, and uses optimisation techniques to enhance the simulation. Finally, both qualitative and quantitative comparisons are performed between the simulated and experimental spectra.
 
 > **Note:**  
 > Due to its large size, the GNPS database file (`GNPS-LIBRARY.json`) that this model relies on could not be uploaded to this repository. Please download the GNPS database file from the GNPS website (https://ccms-ucsd.github.io/GNPSDocumentation/gnpslibraries/) and place it in the repository root (or update the file path in the code) to run the pipeline.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Pipeline Overview](#pipeline-overview)
-- [Suppressing RDKit Warnings](#suppressing-rdkit-warnings)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -39,7 +30,7 @@ This project aims to:
 - **Quantitative Analysis:**  
   Calculate similarity metrics (cosine similarity) between the simulated and experimental spectra.
 
-## Installation
+
 
 ### Requirements
 
