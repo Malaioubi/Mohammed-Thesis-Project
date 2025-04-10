@@ -1,4 +1,4 @@
-# Mohammed-Thesis-Project
+# Mohammed Thesis Project
 
 # Predicting Molecular Structures from Mass Spectrometry Data Using Machine Learning
 
